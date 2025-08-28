@@ -1,0 +1,25 @@
+{
+  "name": "7daysofcode",
+  "version": "1.0.0",
+  "description": "Projeto para o programa da alura #7DaysOfCode",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "#7DaysOfCode",
+    "AdolfoFigueiredo",
+    "Node.js"
+  ],
+  "author": "Adolfo Figueiredo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7",
+    "sqlite": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
